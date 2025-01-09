@@ -1,8 +1,8 @@
 export const Header = () =>{
   return(
     <>
-    <div className="ml-8 mt-8 lg:ml-48 ">
-     <p className="mb-8 "> Barsat Khadka</p>
+    <div className="ml-8 mt-8 lg:ml-48">
+     <p className="mb-4 text-[#ebffff] "> Barsat Khadka</p>
 
      <p className="text-sm mb-2 sm:mr-8 ">
       <span className="text-[#eebc86]">Languages:</span>
