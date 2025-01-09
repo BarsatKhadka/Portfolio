@@ -8,51 +8,62 @@ export const Projects = () => {
           <IoFolderOpenOutline className="inline mr-1" /> Projects 
         </p>
         
-        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mr-8 lg:mr-48">
 
-          
+          {/* First Project Card */}
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-500 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
-            <h3 className="text-[#ebffff] text-xl font-semibold mb-2">
-            <span className="mr-36">Easy Repo</span>
-            <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-full">Code</span>
-            <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-full">Live Demo</span>
+            <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
+              <span className="mb-4 sm:mb-0 sm:mr-4">Easy Repo</span>
+              <div className="flex gap-2">
+                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Code</span>
+                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Live Demo</span>
+              </div>
             </h3>
-            <p className="text-gray-300 text-sm mb-4">
-            A full-stack web application to simplify GitHub repository management. Features include secure OAuth2 login, repository grouping, renaming and deleting a repository , directly opening in VS code, viewing repos in tree structure and lines of code and ultimately can be 
-            controlled by a CLI present in the website.
-
+            <p className="text-gray-300 text-sm mb-4 cursor-text">
+              A full-stack web application to simplify GitHub repository management. Features include secure OAuth2 login, repository grouping, renaming and deleting a repository, directly opening in VS code, viewing repos in tree structure and lines of code, and ultimately can be controlled by a CLI present in the website.
             </p>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-full">SpringBoot</span>
-              <span className="bg-[#61DAFB]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full">React + Typescript</span>
-              <span className="bg-[#00758F]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full">MySQL</span>
+              <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-full cursor-text">SpringBoot</span>
+              <span className="bg-[#61DAFB]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">React + Typescript</span>
+              <span className="bg-[#00758F]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">MySQL</span>
             </div>
           </div>
 
-          
+          {/* Second Project Card */}
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-300 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
-            <h3 className="text-[#] text-xl font-semibold mb-2">AI Dating bot</h3>
-            <p className="text-gray-300 text-sm mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis perferendis dicta, accusantium laboriosam obcaecati. Modi et ad, laudantium nam asperiores dolorem quam tenetur adipisci id officiis. Ipsum, magni doloremque.
+            <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
+              <span className="mb-4 sm:mb-0 sm:mr-4">Easy Repo</span>
+              <div className="flex gap-2">
+                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Code</span>
+                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Live Demo</span>
+              </div>
+            </h3>
+            <p className="text-gray-300 text-sm mb-4 cursor-text">
+              A full-stack web application to simplify GitHub repository management. Features include secure OAuth2 login, repository grouping, renaming and deleting a repository, directly opening in VS code, viewing repos in tree structure and lines of code, and ultimately can be controlled by a CLI present in the website.
             </p>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-[#00ffff]/10 text-[#00ffff] text-xs px-3 py-1 rounded-full">language</span>
-              <span className="bg-[#00ffff]/10 text-[#00ffff] text-xs px-3 py-1 rounded-full">language</span>
-              <span className="bg-[#00ffff]/10 text-[#00ffff] text-xs px-3 py-1 rounded-full">language</span>
+              <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-full cursor-text">SpringBoot</span>
+              <span className="bg-[#61DAFB]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">React + Typescript</span>
+              <span className="bg-[#00758F]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">MySQL</span>
             </div>
           </div>
 
-
+          {/* Third Project Card */}
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-300 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
-            <h3 className="text-[#] text-xl font-semibold mb-2">Database Backup Utility</h3>
-            <p className="text-gray-300 text-sm mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deleniti velit delectus, quis debitis nihil minus animi quo quisquam culpa deserunt commodi perspiciatis voluptatum nostrum, sapiente labore laudantium, praesentium laborum!
+            <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
+              <span className="mb-4 sm:mb-0 sm:mr-4">Database Backup Utility</span>
+              <div className="flex gap-2">
+                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Code</span>
+                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Live Demo</span>
+              </div>
+            </h3>
+            <p className="text-gray-300 text-sm mb-4 cursor-text">
+              A utility application designed to automate the backup process of databases. It supports multiple database systems, provides scheduling options, and ensures data integrity with checksum verification.
             </p>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-[#00ffff]/10 text-[#00ffff] text-xs px-3 py-1 rounded-full">language</span>
-              <span className="bg-[#00ffff]/10 text-[#00ffff] text-xs px-3 py-1 rounded-full">language</span>
-              <span className="bg-[#00ffff]/10 text-[#00ffff] text-xs px-3 py-1 rounded-full">language</span>
+              <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-full cursor-text">Java</span>
+              <span className="bg-[#61DAFB]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">JDBC</span>
+              <span className="bg-[#00758F]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">DBMS</span>
             </div>
           </div>
         </div>
