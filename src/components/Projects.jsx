@@ -13,9 +13,15 @@ export const Projects = () => {
 
           
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-500 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
-            <h3 className="text-[#ebffff] text-xl font-semibold mb-2">Easy Repo</h3>
+            <h3 className="text-[#ebffff] text-xl font-semibold mb-2">
+            <span className="mr-36">Easy Repo</span>
+            <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-full">Code</span>
+            <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-full">Live Demo</span>
+            </h3>
             <p className="text-gray-300 text-sm mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt harum aliquam quibusdam, rem facere accusamus et incidunt optio nisi suscipit sequi magni repellat vel nulla mollitia. Similique, voluptatibus id!
+            A full-stack web application to simplify GitHub repository management. Features include secure OAuth2 login, repository grouping, renaming and deleting a repository , directly opening in VS code, viewing repos in tree structure and lines of code and ultimately can be 
+            controlled by a CLI present in the website.
+
             </p>
             <div className="flex flex-wrap gap-2">
               <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-full">SpringBoot</span>

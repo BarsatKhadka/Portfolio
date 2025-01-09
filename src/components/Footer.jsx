@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 export const Footer = () => {
   return (
@@ -19,20 +20,20 @@ export const Footer = () => {
               <FaGithub className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/barsat-khadka/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#eebc86] hover:text-[#eebc86]/80 transition-all duration-300 hover:scale-110"
             >
-              <FaLinkedin className="w-5 h-5" />
+              <FaLinkedin className="w-5 h-5"/>
             </a>
             <a
-              href="https://twitter.com/yourusername"
+              href="https://leetcode.com/u/BarsatKhadka/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#eebc86] hover:text-[#eebc86]/80 transition-all duration-300 hover:scale-110"
             >
-              <FaTwitter className="w-5 h-5" />
+              <SiLeetcode className="w-5 h-5" />
             </a>
           </div>
         </div>
