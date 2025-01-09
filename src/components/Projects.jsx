@@ -1,4 +1,5 @@
 import { IoFolderOpenOutline } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa";
 
 export const Projects = () => {
   return (
@@ -13,10 +14,12 @@ export const Projects = () => {
           {/* First Project Card */}
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-500 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
             <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
-              <span className="mb-4 sm:mb-0 sm:mr-4">Easy Repo</span>
+              <span className="mb-4 sm:mb-0 sm:mr-4 cursor-text">Easy Repo</span>
               <div className="flex gap-2">
-                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Code</span>
-                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Live Demo</span>
+              <span className="bg-[#000000]/10 text-white text-xs px-3 py-1 rounded-sm border border-[#6DB33F] flex items-center gap-1">
+                  <FaGithub className="inline text-white" /> Source
+                </span>
+                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Live</span>
               </div>
             </h3>
             <p className="text-gray-300 text-sm mb-4 cursor-text">
@@ -32,10 +35,12 @@ export const Projects = () => {
           {/* Second Project Card */}
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-300 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
             <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
-              <span className="mb-4 sm:mb-0 sm:mr-4">Easy Repo</span>
+              <span className="mb-4 sm:mb-0 sm:mr-4 cursor-text">Easy Repo</span>
               <div className="flex gap-2">
-                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Code</span>
-                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Live Demo</span>
+              <span className="bg-[#000000]/10 text-white text-xs px-3 py-1 rounded-sm border border-[#6DB33F] flex items-center gap-1">
+                  <FaGithub className="inline text-white" /> Source
+                </span>
+                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Read Me </span>
               </div>
             </h3>
             <p className="text-gray-300 text-sm mb-4 cursor-text">
@@ -51,10 +56,12 @@ export const Projects = () => {
           {/* Third Project Card */}
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-300 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
             <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
-              <span className="mb-4 sm:mb-0 sm:mr-4">Database Backup Utility</span>
+              <span className="mb-4 sm:mb-0 sm:mr-4 cursor-text">Database Backup Utility</span>
               <div className="flex gap-2">
-                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Code</span>
-                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Live Demo</span>
+              <span className="bg-[#000000]/10 text-white text-xs px-3 py-1 rounded-sm border border-[#6DB33F] flex items-center gap-1">
+                  <FaGithub className="inline text-white" /> Source
+                </span>
+                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">How to setup</span>
               </div>
             </h3>
             <p className="text-gray-300 text-sm mb-4 cursor-text">
