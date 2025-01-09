@@ -14,7 +14,7 @@ export const Projects = () => {
           {/* First Project Card */}
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-500 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
           <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
-            <div className="flex items-center mb-4"> 
+            <div className="flex items-center"> 
                 <img src="./EasyRepoLogo.png" alt="..." className="w-8 h-8" />
                 <span className="cursor-text ml-4">Easy Repo</span>
             </div>
@@ -28,6 +28,9 @@ export const Projects = () => {
                 </span>
             </div>
             </h3>
+            <p className="text-gray-400 text-sm mb-4 cursor-text">
+              GitHub Repository Management Tool
+            </p>
             <p className="text-gray-300 text-sm mb-4 cursor-text">
               A full-stack web application to simplify GitHub repository management. Features include secure OAuth2 login, repository grouping, renaming and deleting a repository, directly opening in VS code, viewing repos in tree structure and lines of code, and ultimately can be controlled by a CLI present in the website.
             </p>
@@ -41,9 +44,9 @@ export const Projects = () => {
           {/* Second Project Card */}
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-300 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
             <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
-            <div className="flex items-center mb-4"> 
+            <div className="flex items-center"> 
                 <img src="./EasyRepoLogo.png" alt="..." className="w-8 h-8" />
-                <span className="cursor-text ml-4">Easy Repo</span>
+                <span className="cursor-text ml-4">AI Dating Bot</span>
             </div>
               <div className="flex gap-2">
               <span className="bg-[#000000]/10 text-white text-xs px-3 py-1 rounded-sm border border-[#6DB33F] flex items-center gap-1">
@@ -55,6 +58,9 @@ export const Projects = () => {
             </span>
               </div>
             </h3>
+            <p className="text-gray-400 text-sm mb-4 cursor-text">
+              GitHub Repository Management Tool
+            </p>
             <p className="text-gray-300 text-sm mb-4 cursor-text">
               A full-stack web application to simplify GitHub repository management. Features include secure OAuth2 login, repository grouping, renaming and deleting a repository, directly opening in VS code, viewing repos in tree structure and lines of code, and ultimately can be controlled by a CLI present in the website.
             </p>
@@ -68,9 +74,9 @@ export const Projects = () => {
           {/* Third Project Card */}
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-300 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
             <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
-            <div className="flex items-center mb-4"> 
+            <div className="flex items-center"> 
                 <img src="./EasyRepoLogo.png" alt="..." className="w-8 h-8" />
-                <span className="cursor-text ml-4">Easy Repo</span>
+                <span className="cursor-text ml-4">Safe Store DBMS</span>
             </div>
               <div className="flex gap-2">
               <span className="bg-[#000000]/10 text-white text-xs px-3 py-1 rounded-sm border border-[#6DB33F] flex items-center gap-1">
@@ -82,6 +88,9 @@ export const Projects = () => {
 </span>
               </div>
             </h3>
+            <p className="text-gray-400 text-sm mb-4 cursor-text">
+              Database Backup Utility
+            </p>
             <p className="text-gray-300 text-sm mb-4 cursor-text">
               A utility application designed to automate the backup process of databases. It supports multiple database systems, provides scheduling options, and ensures data integrity with checksum verification.
             </p>
