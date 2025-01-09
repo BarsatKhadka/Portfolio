@@ -19,7 +19,10 @@ export const Projects = () => {
               <span className="bg-[#000000]/10 text-white text-xs px-3 py-1 rounded-sm border border-[#6DB33F] flex items-center gap-1">
                   <FaGithub className="inline text-white" /> Source
                 </span>
-                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Live</span>
+                <span className="relative bg-gradient-to-r from-[#6DB33F] to-[#8BC34A] text-black text-xs px-4 py-2 rounded-lg border border-[#6DB33F]/50 hover:shadow-lg hover:shadow-[#6DB33F]/40 transition-all duration-300 hover:scale-105 group">
+  Visit
+  <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 rounded-lg transition-opacity duration-300"></span>
+</span>
               </div>
             </h3>
             <p className="text-gray-300 text-sm mb-4 cursor-text">
@@ -40,7 +43,10 @@ export const Projects = () => {
               <span className="bg-[#000000]/10 text-white text-xs px-3 py-1 rounded-sm border border-[#6DB33F] flex items-center gap-1">
                   <FaGithub className="inline text-white" /> Source
                 </span>
-                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">Read Me </span>
+                <span className="relative bg-gradient-to-r from-[#6DB33F] to-[#8BC34A] text-black text-xs px-4 py-2 rounded-lg border border-[#6DB33F]/50 hover:shadow-lg hover:shadow-[#6DB33F]/40 transition-all duration-300 hover:scale-105 group">
+                Read Me
+             <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 rounded-lg transition-opacity duration-300"></span>
+            </span>
               </div>
             </h3>
             <p className="text-gray-300 text-sm mb-4 cursor-text">
@@ -61,7 +67,10 @@ export const Projects = () => {
               <span className="bg-[#000000]/10 text-white text-xs px-3 py-1 rounded-sm border border-[#6DB33F] flex items-center gap-1">
                   <FaGithub className="inline text-white" /> Source
                 </span>
-                <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-sm border border-[#6DB33F]">How to setup</span>
+                <span className="relative bg-gradient-to-r from-[#6DB33F] to-[#8BC34A] text-black text-xs px-4 py-2 rounded-lg border border-[#6DB33F]/50 hover:shadow-lg hover:shadow-[#6DB33F]/40 transition-all duration-300 hover:scale-105 group">
+  How to Setup
+  <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 rounded-lg transition-opacity duration-300"></span>
+</span>
               </div>
             </h3>
             <p className="text-gray-300 text-sm mb-4 cursor-text">
