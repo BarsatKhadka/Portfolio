@@ -45,6 +45,7 @@ export const Projects = () => {
               <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-full cursor-text">SpringBoot</span>
               <span className="bg-[#61DAFB]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">React + Typescript</span>
               <span className="bg-[#00758F]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">MySQL</span>
+              <span className="bg-[#4EA225]/10 text-[#4EA225] text-xs px-3 py-1 rounded-full cursor-text">Spring Security</span>
             </div>
           </div>
 
@@ -73,8 +74,9 @@ export const Projects = () => {
             </p>
             <div className="flex flex-wrap gap-2">
               <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-full cursor-text">SpringBoot</span>
-              <span className="bg-[#61DAFB]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">React + Typescript</span>
-              <span className="bg-[#00758F]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">MySQL</span>
+              <span className="bg-[#61DAFB]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">React.js</span>
+              <span className="bg-[#FFD43B]/20 text-[#FFD43B] text-xs px-3 py-1 rounded-full cursor-text">Python</span>
+              <span className="bg-[#6E6E6E]/10 text-[#6E6E6E] text-xs px-3 py-1 rounded-full cursor-text">Stable Diffusion</span>
             </div>
           </div>
 
@@ -102,9 +104,11 @@ export const Projects = () => {
               A utility application designed to automate the backup process of databases. It supports multiple database systems, provides scheduling options, and ensures data integrity with checksum verification.
             </p>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-[#6DB33F]/10 text-[#6DB33F] text-xs px-3 py-1 rounded-full cursor-text">Java</span>
-              <span className="bg-[#61DAFB]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">JDBC</span>
-              <span className="bg-[#00758F]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">DBMS</span>
+            <span className="bg-[#E76F00]/10 text-[#E76F00] text-xs px-3 py-1 rounded-full cursor-text">Java</span>
+            <span className="bg-[#61DAFB]/10 text-[#61DAFB] text-xs px-3 py-1 rounded-full cursor-text">JDBC</span>
+            <span className="bg-[#00758F]/10 text-[#00758F] text-xs px-3 py-1 rounded-full cursor-text">MySQL</span>
+            <span className="bg-[#336791]/10 text-[#336791] text-xs px-3 py-1 rounded-full cursor-text">PostgreSQL</span>
+            <span className="bg-[#47A248]/10 text-[#47A248] text-xs px-3 py-1 rounded-full cursor-text">MongoDB</span>
             </div>
           </div>
         </div>
