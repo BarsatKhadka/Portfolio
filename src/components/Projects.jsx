@@ -13,17 +13,20 @@ export const Projects = () => {
 
           {/* First Project Card */}
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-500 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
-            <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
-              <span className="mb-4 sm:mb-0 sm:mr-4 cursor-text">Easy Repo</span>
-              <div className="flex gap-2">
-              <span className="bg-[#000000]/10 text-white text-xs px-3 py-1 rounded-sm border border-[#6DB33F] flex items-center gap-1">
-                  <FaGithub className="inline text-white" /> Source
+          <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
+            <div className="flex items-center mb-4"> 
+                <img src="./EasyRepoLogo.png" alt="..." className="w-8 h-8" />
+                <span className="cursor-text ml-4">Easy Repo</span>
+            </div>
+            <div className="flex gap-2">
+                <span className="bg-[#000000]/10 text-white text-xs px-3 py-1 rounded-sm border border-[#6DB33F] flex items-center gap-1">
+                <FaGithub className="inline text-white" /> Source
                 </span>
                 <span className="relative bg-gradient-to-r from-[#6DB33F] to-[#8BC34A] text-black text-xs px-4 py-2 rounded-lg border border-[#6DB33F]/50 hover:shadow-lg hover:shadow-[#6DB33F]/40 transition-all duration-300 hover:scale-105 group">
-  Visit
-  <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 rounded-lg transition-opacity duration-300"></span>
-</span>
-              </div>
+                Visit
+                <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 rounded-lg transition-opacity duration-300"></span>
+                </span>
+            </div>
             </h3>
             <p className="text-gray-300 text-sm mb-4 cursor-text">
               A full-stack web application to simplify GitHub repository management. Features include secure OAuth2 login, repository grouping, renaming and deleting a repository, directly opening in VS code, viewing repos in tree structure and lines of code, and ultimately can be controlled by a CLI present in the website.
@@ -38,7 +41,10 @@ export const Projects = () => {
           {/* Second Project Card */}
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-300 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
             <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
-              <span className="mb-4 sm:mb-0 sm:mr-4 cursor-text">Easy Repo</span>
+            <div className="flex items-center mb-4"> 
+                <img src="./EasyRepoLogo.png" alt="..." className="w-8 h-8" />
+                <span className="cursor-text ml-4">Easy Repo</span>
+            </div>
               <div className="flex gap-2">
               <span className="bg-[#000000]/10 text-white text-xs px-3 py-1 rounded-sm border border-[#6DB33F] flex items-center gap-1">
                   <FaGithub className="inline text-white" /> Source
@@ -62,7 +68,10 @@ export const Projects = () => {
           {/* Third Project Card */}
           <div className="bg-[#] p-6 rounded-lg hover:scale-105 transform transition-all duration-300 hover:shadow-2xl hover:shadow-[#eebc86]/20 cursor-pointer">
             <h3 className="text-[#ebffff] text-xl font-semibold mb-8 sm:mb-4 flex flex-col sm:flex-row sm:items-center justify-between">
-              <span className="mb-4 sm:mb-0 sm:mr-4 cursor-text">Database Backup Utility</span>
+            <div className="flex items-center mb-4"> 
+                <img src="./EasyRepoLogo.png" alt="..." className="w-8 h-8" />
+                <span className="cursor-text ml-4">Easy Repo</span>
+            </div>
               <div className="flex gap-2">
               <span className="bg-[#000000]/10 text-white text-xs px-3 py-1 rounded-sm border border-[#6DB33F] flex items-center gap-1">
                   <FaGithub className="inline text-white" /> Source
