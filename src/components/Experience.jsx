@@ -3,9 +3,9 @@ import { MdOutlineWorkOutline } from "react-icons/md";
 export const Experience = () =>{
     return(
         <>
-        <div className="ml-8 mt-16 lg:ml-48 ">
+        <div className="ml-8     mt-16 lg:ml-48 ">
            <p className="text-[#ebffff] mb-6"> <MdOutlineWorkOutline className="inline mr-1"/> Experience </p> 
-           <p className="ml-6">Java tutor |<span className="italic"> Bir Amar Singh Secondary School , Nepal</span></p>
+           <p className=" lg:ml-6">Java tutor |<span className="italic"> Bir Amar Singh Secondary School , Nepal</span></p>
            <p><span className="text-sm text-gray-400 ml-6">December 2022 - March 2023</span> 
            <ul className="list-disc list-inside mt-2 text-sm text-gray-300 ml-6">
             <li className="mb-2 sm:mr-2">Tutored 30+ grade 11 Students in mastering core Java concepts including loops , OOP , Collections Framework , JDBC , and Generics.  </li>
